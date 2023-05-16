@@ -1,0 +1,63 @@
+header {
+  background-color: #c4fbf3;
+  padding: 20px;
+  text-align: center;
+  font-size: 15px;
+  border-style: groove;
+}
+#quizt {
+  background-color: #c4fbf3;
+  float: right;
+  display: none;
+}
+.navi {
+  background-color: rgb(74, 213, 238);
+  border: rgb(11, 161, 154);
+  border-style: groove;
+}
+
+#restt {
+  float: right;
+  display: none;
+  background-color: #c4fbf3;
+}
+nav {
+  float: left;
+  width: 200px;
+  padding: 30px;
+  background-color: #c4fbf3;
+  border: rgb(11, 161, 154);
+  border-style: solid;
+}
+content {
+  float: left;
+  padding-left: 50px;
+  text-align: center;
+  width: 600px;
+  height: 600px;
+}
+
+body {
+  font-family: arial;
+}
+#countryList {
+  display: inline-block;
+  height: 70vh;
+  overflow-y: auto;
+}
+#countryList div.hide {
+  display: none;
+}
+#content {
+  display: inline-block;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  border: 1px;
+  padding: 2px;
+  border-style: solid;
+  vertical-align: top;
+}
