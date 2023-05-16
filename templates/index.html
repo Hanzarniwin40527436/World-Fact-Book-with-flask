@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src=static/index.js defer></script>
+        <link rel=stylesheet href="static/index.css">
+        <script src=static/resttest.js defer></script>
+        <script src=static/popquiz.js defer></script>
+        <script src=static/flagquiz.js defer></script>
+    </head>
+    <body>
+        <header>
+            <h1>World Fact Book</h1>
+        </header>
+        
+        <div class="navi">
+            
+            <label>Search country with Alphabet :</label>
+            <select id="alpha">     
+                <option >A</option><option>B</option><option  >C</option>
+                <option >D</option><option >E</option><option >F</option>
+                <option >G</option><option >H</option><option >I</option>
+                <option >J</option><option >K</option><option >L</option>
+                <option >M</option><option >N</option><option >O</option>
+                <option >P</option><option >Q</option><option >R</option>
+                <option >S</option><option >T</option><option >U</option>
+                <option >V</option><option >W</option><option >X</option>
+                <option >Y</option><option >Z</option>
+            </select>
+            <br><br>
+            <label>Search countries continent   :</label>
+                <select id="continent">   
+                    <option >Asia</option>
+                    <option >Africa</option>
+                    <option >Caribbean</option>
+                    <option >Europe</option>
+                    <option >South America</option>
+                    <option >North America</option>
+                    <option >Oceania</option>   
+                </select>
+                <div><br>
+
+            <label>Search country with name :</label>
+            <input type="text" placeholder="Type country name.." id="search" ></div> 
+        </div>
+
+        <nav>
+            <div id="countryList"></div>
+        </nav>
+
+        <button id="quizid">Quiz</button>
+        <div id="quizt">
+            <h1>Geography Quiz</h1>
+            <div id=question></div><br><br>
+            <div id=question1></div><br><br>
+            <div id=question2></div>
+           
+        </div>
+
+        <content>
+            <div id=content>Main Content</div>
+        </content>
+        
+        <button id="Resttest">Edit</button>
+        <div id="restt" >
+            <div>
+                <h2>GET</h2>
+                <input id=getid >
+                <button id=getbutton>GET</button><br>
+                <textarea id=getoutput></textarea>
+            </div> 
+            <div>
+                <h2>DELETE country wtih ID:</h2>
+                <input id=deleteid >
+                <button id=deletebutton>DELETE</button>
+            </div>    
+            <div>
+                <h2>Put data to country List</h2>
+                <label>id: <input id=putid ></label><br>
+                <label>name: <input id=putname ></label><br>
+                <label>continent: <input id=putcontinent ></label><br>
+                <label>capital: <input id=putcapital></label><br>
+                <button id=putbutton>PUT</button>
+            </div> 
+        </div>
+        
+    </body>
+</html>
